@@ -29,7 +29,12 @@
 		});
 	};
 
-	
-	getArticles()
-	mostrar_articulos();
+	document
+		.getElementById('import_news_btn')
+			.addEventListener('click', e => {
+				e.preventDefault();
+
+					getArticles()
+						mostrar_articulos();
+							});
 })();
