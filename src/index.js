@@ -7,7 +7,7 @@
 	};
 
 	const mostrar_articulos = () => {
-		const list = document.getElementById('newsList');
+		const list = document.querySelectorAll('newsList')[0];
 
 		articles.forEach(article => {
 			const li = document.createElement('li');
@@ -25,7 +25,7 @@
 				</a>
 			`;
 
-			list.appendChild(li);
+			list.parentElement.firstElementChild.appendChild(li);
 		});
 	};
 
