@@ -6,7 +6,7 @@
 		/* endpoint: https://raw.githubusercontent.com/miquelmasrieramrf/webTest/main/data/articles/{ __PAGE_NUMBER__ } */
 	};
 
-	const mostrar_articulos = () => {
+	const showArticles = () => {
 		const list = document.querySelectorAll('#newsList')[0];
 
 		articles.forEach(article => {
@@ -30,11 +30,11 @@
 	};
 
 	document
-		.getElementById('import_news_btn')
-			.addEventListener('click', e => {
-				e.preventDefault();
+		.getElementById('importNews_btn')
+		.addEventListener('click', (e) => {
+			e.preventDefault();
 
-					getArticles()
-						mostrar_articulos();
-							});
+			showArticles();
+			getArticles();
+		});
 })();

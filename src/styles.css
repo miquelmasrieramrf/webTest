@@ -23,24 +23,20 @@ body {
 	transform: rotate(-10deg);
 }
 
-#contentdor-de-noticias {
-	margin-top: 2rem;
+#newsContainer {
+	margin-top: 2rem
+	;width: 30rem;
 }
 
-#import_news_btn {
+#importNews_btn {
 	/* style it like .article */
-}
-
-#contentdor-de-noticias {
-	width: 30rem;
 }
 
 #newsList {
 	padding: 0;
 	margin: 0;
-	display: flex;
-	gap: 1rem;
 	list-style: none;
+	display: flex;
 }
 
 .article {
