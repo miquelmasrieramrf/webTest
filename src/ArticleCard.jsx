@@ -1,11 +1,12 @@
 
 const ArticleCard = ({ article }) => {
-	console.log('articel', article);
 
 	return (
-		<li>
-			<p>{ article.title }</p>
-		</li>
+		<div>
+			<h3>{ article.title }</h3>
+			<p>{ article.subtitle }</p>
+			<p>{ article.author }</p>
+		</div>
 	);
 };
 
