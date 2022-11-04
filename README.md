@@ -3,21 +3,16 @@
 TODO:
 
 JS
-when clicking on the button, nothing happens.
 
-1. Implement the `getArticles` function, so it fetches the 1st page of articles
-using the endpoint `https://raw.githubusercontent.com/miquelmasrieramrf/webTest/main/data/articles/{ __PAGE_NUMBER__ }`
-2. make the function showArticles use the articles fetched using the previous one, so they are shown in the page.
-3. now show the articles of the pages 1 and 2 (articles [1, 10]) in order.
+1. use the endpoint: `https://raw.githubusercontent.com/miquelmasrieramrf/webTest/main/data/articles/{ __PAGE_NUMBER__ }` to fetch and load the first batch of articles.
+2. on click, fetch the 2nd page and load it along with the forst one
+3. disable the button
+
+
 
 CSS
-
-Styling is not fine
-1. we want to display the articles in a vertical list
-2. style the button exacly as the `article`s
-3. make it response (make the articels fit in a smartphone screen)
+* TODO: style;
 
 Analysis
-
-1. improve the showArticles function
-2. html discussion
+* code architecture
+* code improvements
