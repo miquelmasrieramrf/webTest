@@ -13,7 +13,7 @@ using the endpoint `https://raw.githubusercontent.com/miquelmasrieramrf/webTest/
 CSS
 
 Styling is not fine
-1. we want to display the articles in a vertical list
+1. we want to display the articles in a vertical list and add some space between them
 2. style the button exacly as the `article`s
 3. make it response (make the articels fit in a smartphone screen)
 
